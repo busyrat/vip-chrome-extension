@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "start": "webpack-dev-server"
+    "build": "webpack --config ./build/webpack.prod.js",
+    "start": "webpack-dev-server --config ./build/webpack.dev.js --hot"
   },
   "keywords": [],
   "author": "",
@@ -24,7 +24,8 @@
     "vue-style-loader": "^4.1.2",
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.2.1"
+    "webpack-dev-server": "^3.2.1",
+    "webpack-merge": "^4.2.1"
   },
   "dependencies": {
     "antd": "^3.13.6",
