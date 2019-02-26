@@ -1,1 +1,18 @@
 @import '~antd/dist/antd.css';
+
+#app {
+    width: 400px;
+    height: 400px;
+    background-color: transparent;
+    padding: 20px;
+}
+
+.wrap{
+    margin: 0 auto;
+    display: flex;
+}
+
+.wrap .select-box {
+    flex: 1;
+    margin-right: 12px;
+}

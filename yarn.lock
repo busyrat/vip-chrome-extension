@@ -23,6 +23,22 @@
   version "1.7.2"
   resolved "http://registry.npm.taobao.org/@most/prelude/download/@most/prelude-1.7.2.tgz#be4ed406518d4c8c220e45c39fa7251365425b73"
 
+"@types/chrome@^0.0.81":
+  version "0.0.81"
+  resolved "http://registry.npm.taobao.org/@types/chrome/download/@types/chrome-0.0.81.tgz#4fbf34c370a60235be4f97f32429e701fb644d10"
+  dependencies:
+    "@types/filesystem" "*"
+
+"@types/filesystem@*":
+  version "0.0.29"
+  resolved "http://registry.npm.taobao.org/@types/filesystem/download/@types/filesystem-0.0.29.tgz#ee3748eb5be140dcf980c3bd35f11aec5f7a3748"
+  dependencies:
+    "@types/filewriter" "*"
+
+"@types/filewriter@*":
+  version "0.0.28"
+  resolved "http://registry.npm.taobao.org/@types/filewriter/download/@types/filewriter-0.0.28.tgz#c054e8af4d9dd75db4e63abc76f885168714d4b3"
+
 "@types/prop-types@*":
   version "15.5.9"
   resolved "http://registry.npm.taobao.org/@types/prop-types/download/@types/prop-types-15.5.9.tgz#f2d14df87b0739041bc53a7d75e3d77d726a3ec0"
