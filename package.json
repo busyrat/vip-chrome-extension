@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config ./build/webpack.prod.js",
-    "start": "webpack-dev-server --config ./build/webpack.dev.js --hot"
+    "start": "webpack-dev-server --config ./build/webpack.dev.js --hot",
+    "anal": "webpack-dashboard -- webpack-dev-server --config ./build/webpack.anal.js --hot"
   },
   "keywords": [],
   "author": "",
@@ -23,7 +24,9 @@
     "typescript": "^3.3.3333",
     "vue-style-loader": "^4.1.2",
     "webpack": "^4.29.5",
+    "webpack-bundle-analyzer": "^3.0.4",
     "webpack-cli": "^3.2.3",
+    "webpack-dashboard": "^3.0.0",
     "webpack-dev-server": "^3.2.1",
     "webpack-merge": "^4.2.1"
   },
